@@ -19,26 +19,26 @@
 }
 
 .intro-text > h1 {
-    font-size: 56px;
-    letter-spacing: -1px;
-    line-height: 64px;
+    font-size: 3.5rem;
+    letter-spacing: -0.063rem;
+    line-height: 4rem;
     font-weight: 400;
-    width: 15ch;
+    min-width: 15ch;
 }
 
 .intro-text > .request-invite {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .intro-text > p {
-    line-height: 28px;
-    letter-spacing: -0.28px;
+    line-height: 1.75rem;
+    letter-spacing: -0.018rem;
     color: var(--neutral-grayish-blue);
-    width: 40ch;
+    min-width: 40ch;
 }
 .mockups-container > img {
     position: relative;
-    left: 100px;
+    left: 6.25rem;
     z-index: 2;
 }
 .mockups-container {
@@ -53,7 +53,6 @@
         text-align: center;
         flex-direction: column;
         padding-left: 0;
-
         margin-bottom: 0;
     }
 
