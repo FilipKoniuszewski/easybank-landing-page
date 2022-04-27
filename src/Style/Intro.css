@@ -1,3 +1,44 @@
 ﻿.intro {
-    background: var(--neutral-very-light-gray);
+    background: var(--neutral-white);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    justify-content: space-between;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.intro-text > h1 {
+    font-size: 56px;
+    letter-spacing: -1px;
+    line-height: 64px;
+    font-weight: 400;
+    width: 15ch;
+}
+
+.intro-text > .request-invite {
+    margin-top: 20px;
+}
+
+.intro-text > p {
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    color: var(--neutral-grayish-blue);
+    width: 40ch;
+}
+.mockups-container > img {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.mockups-container {
+    background-image: url(../Assets/Images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 9% 130%;
 }
