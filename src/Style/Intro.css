@@ -1,11 +1,12 @@
 ﻿.intro {
-    background: var(--neutral-white);
+    background: var(--neutral-very-light-gray);
     text-align: left;
     display: flex;
     align-items: center;
     padding-left: 10%;
     justify-content: space-between;
     color: var(--primary-dark-blue);
+    overflow: hidden;
 }
 
 .intro-text {
