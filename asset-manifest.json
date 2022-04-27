@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/easybank-landing-page/static/css/main.29a84f9e.css",
-    "main.js": "/easybank-landing-page/static/js/main.1eaebf51.js",
+    "main.css": "/easybank-landing-page/static/css/main.39574dc9.css",
+    "main.js": "/easybank-landing-page/static/js/main.a855af75.js",
     "static/media/image-mockups.png": "/easybank-landing-page/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/icon-api.svg": "/easybank-landing-page/static/media/icon-api.74c8ad1751bbd1e7f545e458f9306885.svg",
+    "static/media/icon-onboarding.svg": "/easybank-landing-page/static/media/icon-onboarding.d74aed6429619336a30e42334d6eb432.svg",
     "static/media/logo.svg": "/easybank-landing-page/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/icon-budgeting.svg": "/easybank-landing-page/static/media/icon-budgeting.ad7169975ea1eda87072ea0325a8204a.svg",
     "static/media/bg-intro-desktop.svg": "/easybank-landing-page/static/media/bg-intro-desktop.8be308fd4ce79bd32a09.svg",
+    "static/media/icon-online.svg": "/easybank-landing-page/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
     "index.html": "/easybank-landing-page/index.html",
-    "main.29a84f9e.css.map": "/easybank-landing-page/static/css/main.29a84f9e.css.map",
-    "main.1eaebf51.js.map": "/easybank-landing-page/static/js/main.1eaebf51.js.map"
+    "main.39574dc9.css.map": "/easybank-landing-page/static/css/main.39574dc9.css.map",
+    "main.a855af75.js.map": "/easybank-landing-page/static/js/main.a855af75.js.map"
   },
   "entrypoints": [
-    "static/css/main.29a84f9e.css",
-    "static/js/main.1eaebf51.js"
+    "static/css/main.39574dc9.css",
+    "static/js/main.a855af75.js"
   ]
 }
