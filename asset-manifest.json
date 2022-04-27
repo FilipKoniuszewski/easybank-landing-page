@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easybank-landing-page/static/css/main.3afea2e7.css",
+    "main.css": "/easybank-landing-page/static/css/main.ec329963.css",
     "main.js": "/easybank-landing-page/static/js/main.644602c1.js",
     "static/media/image-currency.jpg": "/easybank-landing-page/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/image-restaurant.jpg": "/easybank-landing-page/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
@@ -14,11 +14,11 @@
     "static/media/bg-intro-desktop.svg": "/easybank-landing-page/static/media/bg-intro-desktop.8be308fd4ce79bd32a09.svg",
     "static/media/icon-online.svg": "/easybank-landing-page/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
     "index.html": "/easybank-landing-page/index.html",
-    "main.3afea2e7.css.map": "/easybank-landing-page/static/css/main.3afea2e7.css.map",
+    "main.ec329963.css.map": "/easybank-landing-page/static/css/main.ec329963.css.map",
     "main.644602c1.js.map": "/easybank-landing-page/static/js/main.644602c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3afea2e7.css",
+    "static/css/main.ec329963.css",
     "static/js/main.644602c1.js"
   ]
 }
