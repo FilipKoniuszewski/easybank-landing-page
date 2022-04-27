@@ -4,8 +4,6 @@
     gap: 1rem;
     color: var(--primary-dark-blue);
     background: var(--neutral-light-grayish-blue);
-    position: relative;
-    top: -10.7rem;
     z-index: 1;
     padding: 9rem 10%;
 }
