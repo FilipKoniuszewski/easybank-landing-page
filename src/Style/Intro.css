@@ -46,3 +46,37 @@
     background-repeat: no-repeat;
     background-position: 9% 200%;
 }
+
+
+@media (max-width: 768px) {
+    .intro {
+        text-align: center;
+        flex-direction: column;
+        padding-left: 0;
+
+        margin-bottom: 0;
+    }
+
+    .intro-text {
+        align-items: center;
+    }
+
+    .intro-text {
+        order: 2;
+    }
+
+    .mockups-container {
+        background-image: url(../Assets/Images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right 4rem;
+        background-size: 100% 100%;
+        
+    }
+
+    .mockups-container > img {
+        position: initial;
+        left: 0;
+        z-index: 2;
+        max-width: 85%;
+    }
+}

@@ -1,5 +1,4 @@
-﻿
-footer {
+﻿footer {
     left: 0;
     bottom: 0;
     color: var(--neutral-white);
@@ -77,5 +76,48 @@ footer {
 
 .footer-request-invite > div:nth-of-type(2) {
     opacity: 0.5;
+}
+
+
+@media (max-width: 900px) {
+    footer {
+        padding: 3rem 10%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-socials {
+        margin-right: -3.7rem;
+    }
+
+    .footer-content-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-nav-1 {
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    .footer-nav-2 {
+        align-items: center;
+        justify-content: center;
+        margin-top: -1.4rem;
+    }
+    
+    .footer-request-invite {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-request-invite > div {
+        align-self: center;
+    }
 }
     
