@@ -12,14 +12,31 @@
 }
 
 body {
-    font-size: 18px;
-    /*text-align: center;*/
+    font-size: 1.125rem;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: "Public Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.arrow-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 4rem;
+    background: linear-gradient(to right, var(--primary-lime-green), var(--bright-cyan));
+    padding: .2rem .4rem;
+    z-index: 99;
+    border-radius: 50%;
+    transition: 100ms ease-in-out;
+    
+}
+
+.arrow-up:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 

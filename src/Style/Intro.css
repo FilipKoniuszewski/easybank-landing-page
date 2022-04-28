@@ -8,6 +8,7 @@
     color: var(--primary-dark-blue);
     margin-bottom: -10.7rem;
     overflow: hidden;
+    animation: come-in 1s ease-in-out;
 }
 
 .intro-text {
@@ -23,7 +24,7 @@
     letter-spacing: -0.063rem;
     line-height: 4rem;
     font-weight: 400;
-    min-width: 15ch;
+    max-width: 15ch;
 }
 
 .intro-text > .request-invite {
@@ -34,7 +35,7 @@
     line-height: 1.75rem;
     letter-spacing: -0.018rem;
     color: var(--neutral-grayish-blue);
-    min-width: 40ch;
+    max-width: 40ch;
 }
 .mockups-container > img {
     position: relative;
@@ -45,6 +46,23 @@
     background-image: url(../Assets/Images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position: 9% 200%;
+}
+
+@keyframes come-in {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    75%{
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -77,5 +95,16 @@
         left: 0;
         z-index: 2;
         max-width: 85%;
+    }
+
+    .intro-text > h1 {
+        font-size: 2.5rem
+    }
+
+    .intro-text > p {
+        font-size: 1.125rem;
+        letter-spacing: -0.018rem;
+        line-height: 1.75rem;
+        max-width: 30ch;
     }
 }

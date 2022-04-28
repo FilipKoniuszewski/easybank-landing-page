@@ -5,6 +5,7 @@
     color: var(--primary-dark-blue);
     background: var(--neutral-very-light-gray);
     padding: 9rem 10%;
+    animation: come-in 2s ease-in-out;
 }
 
 .articles-grid-container {
@@ -20,6 +21,13 @@
     gap: 0.7rem;
     background: var(--neutral-white);
     max-width: 15rem;
+    transition:all 0.3s ease;
+}
+
+.grid-card__articles:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    
 }
 
 .card-content {

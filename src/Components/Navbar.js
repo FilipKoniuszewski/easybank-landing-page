@@ -1,4 +1,4 @@
-﻿import React, {useEffect, useState} from 'react';
+﻿import React, {useEffect, useRef, useState} from 'react';
 import "../Style/Navbar.css"
 import logo from "../Assets/Images/logo.svg"
 import hamburgerIcon from "../Assets/Images/icon-hamburger.svg";
@@ -8,15 +8,19 @@ export default function Navbar(props) {
     
     const [isNavbarToggle, setIsNavbarToggle] = useState(false)
     
-    
+    const menuRef = useRef(null)
+
     useEffect(() => {
-        if (isNavbarToggle) {
-            
-        }
-        else {
-            
-        }
-    }, [isNavbarToggle])
+        const checkIfClickedOutside = (e) => {
+            if (isNavbarToggle && menuRef.current && !menuRef.current.contains(e.target)) {
+                setIsNavbarToggle(false);
+            }
+        };
+        document.addEventListener("mousedown", checkIfClickedOutside);
+        return () => {
+            document.removeEventListener("mousedown", checkIfClickedOutside);
+        };
+    }, [isNavbarToggle]);
     
     return (
         <>
@@ -48,7 +52,7 @@ export default function Navbar(props) {
                     <img src={isNavbarToggle ? closeIcon : hamburgerIcon} alt={`${isNavbarToggle ? 'closeIcon' : 'hamburgerIcon'}`}  />
                 </div>
             </header>
-            <div className={`${isNavbarToggle ? 'navbar-toggle-active' : 'navbar-toggle-inactive'} navbar-toggle-container`}>
+            <div ref={menuRef} className={`${isNavbarToggle ? 'navbar-toggle-active' : 'navbar-toggle-inactive'} navbar-toggle-container`}>
                 <div className="toggle-home">
                     Home
                 </div>

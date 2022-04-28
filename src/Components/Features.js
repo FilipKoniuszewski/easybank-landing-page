@@ -4,6 +4,7 @@ import budget from "../Assets/Images/icon-budgeting.svg";
 import onboard from "../Assets/Images/icon-onboarding.svg";
 import api from "../Assets/Images/icon-api.svg";
 import "../Style/Features.css"
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 export default function Features(props) {
     return (
