@@ -20,6 +20,7 @@ body {
     padding: 0;
     font-family: "Public Sans", sans-serif;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .arrow-up {

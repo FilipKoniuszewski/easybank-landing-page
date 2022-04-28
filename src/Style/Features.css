@@ -6,7 +6,7 @@
     background: var(--neutral-light-grayish-blue);
     z-index: 1;
     padding: 9rem 10%;
-    animation: come-in 1.5s ease-in-out;
+    animation: come-in 2s ease-in-out;
 }
 
 .features > h2 {

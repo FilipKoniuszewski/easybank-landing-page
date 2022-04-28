@@ -8,7 +8,7 @@
     color: var(--primary-dark-blue);
     margin-bottom: -10.7rem;
     overflow: hidden;
-    animation: come-in 1s ease-in-out;
+    animation: come-in 1.5s ease-in-out;
 }
 
 .intro-text {

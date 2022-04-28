@@ -5,7 +5,7 @@
     color: var(--primary-dark-blue);
     background: var(--neutral-very-light-gray);
     padding: 9rem 10%;
-    animation: come-in 2s ease-in-out;
+    animation: come-in 2.5s ease-in-out;
 }
 
 .articles-grid-container {
