@@ -9,7 +9,7 @@ import {useEffect, useState} from "react";
 
 function App() {
     
-    const [isScrolling, setIsScrolling] = useState(true);
+    const [isScrolling, setIsScrolling] = useState(false);
     
     function ScrollToTop() {
         window.scrollTo(0, 0)
