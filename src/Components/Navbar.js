@@ -10,9 +10,14 @@ export default function Navbar(props) {
     
     const menuRef = useRef(null)
 
+    const burgerRef = useRef(null)
+
     useEffect(() => {
         const checkIfClickedOutside = (e) => {
-            if (isNavbarToggle && menuRef.current && !menuRef.current.contains(e.target)) {
+            if (isNavbarToggle 
+                && menuRef.current 
+                && !menuRef.current.contains(e.target)
+                && !burgerRef.current.contains(e.target)) {
                 setIsNavbarToggle(false);
             }
         };
@@ -48,7 +53,7 @@ export default function Navbar(props) {
                 <div className="request-invite">
                     Request Invite
                 </div>
-                <div className="burger-toggle" onClick={() => setIsNavbarToggle(!isNavbarToggle)}>
+                <div ref={burgerRef} className="burger-toggle" onClick={() => setIsNavbarToggle(!isNavbarToggle)}>
                     <img src={isNavbarToggle ? closeIcon : hamburgerIcon} alt={`${isNavbarToggle ? 'closeIcon' : 'hamburgerIcon'}`}  />
                 </div>
             </header>
